@@ -1,0 +1,20 @@
+{
+  "name": "synapse-with-oidc-crashing",
+  "version": "0.0.1",
+  "description": "Synapse server crashing when trying to fetch lemonLDAP metadata",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "./clean.sh && node index.js",
+    "start:debug": "./clean.sh && env DEBUG=testcontainers:containers,testcontainers:compose,testcontainers,testcontainers:exec node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcontainers": "^10.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6"
+  }
+}

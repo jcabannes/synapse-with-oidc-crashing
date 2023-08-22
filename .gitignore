@@ -1,0 +1,6 @@
+__test-data__/synapse-data/*
+!__test-data__/synapse-data/homeserver.yaml
+!__test-data__/synapse-data/registration.yaml
+!__test-data__/synapse-data/matrix.example.com.log.config
+node_modules/
+index.js
